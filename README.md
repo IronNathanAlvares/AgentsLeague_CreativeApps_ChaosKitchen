@@ -53,7 +53,7 @@ This isn't your grandma's cooking simulator. This is **high-octane ingredient wa
 
 ### 🔗 Join The Kitchen Brigade
 
-**Fork & Clone**: [🍴 chaos-kitchen on GitHub](https://github.com/IronNathanAlvares/chaos-kitchen)
+**Fork & Clone**: [🍴 chaos-kitchen on GitHub](https://github.com/IronNathanAlvares/AgentsLeague_CreativeApps_ChaosKitchen)
 
 </div>
 
