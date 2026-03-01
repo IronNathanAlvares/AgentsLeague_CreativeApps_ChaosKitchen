@@ -1,0 +1,53 @@
+{
+  "name": "chaos-kitchen",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Interactive cooking game with mini-games and AI-generated recipes. Built for Agents League - Battle #1: Creative Apps with GitHub Copilot",
+  "author": "Nathan Alvares",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IronNathanAlvares/chaos-kitchen.git"
+  },
+  "keywords": [
+    "game",
+    "cooking",
+    "react",
+    "typescript",
+    "vite",
+    "mini-games",
+    "github-copilot",
+    "agents-league"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm:dev:client\" \"npm:dev:server\"",
+    "dev:client": "vite",
+    "dev:server": "node --env-file-if-exists=.env server/index.js",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.1",
+    "express": "^5.2.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.2.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.3",
+    "concurrently": "^9.2.1",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.4.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.44.0",
+    "vite": "^7.1.7"
+  }
+}

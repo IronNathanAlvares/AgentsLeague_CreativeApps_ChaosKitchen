@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.app-dark {
+  color-scheme: dark;
+}
+
+.app-dark article,
+.app-dark .rounded-xl,
+.app-dark .rounded-lg,
+.app-dark .rounded-2xl {
+  border-color: rgb(71 85 105 / 0.45) !important;
+}
+
+.app-dark article,
+.app-dark .bg-white {
+  background-color: rgb(15 23 42) !important;
+  color: rgb(226 232 240) !important;
+}
+
+.app-dark .text-slate-900,
+.app-dark .text-slate-800,
+.app-dark .text-slate-700,
+.app-dark .text-slate-600,
+.app-dark .text-slate-500 {
+  color: rgb(203 213 225) !important;
+}
+
+.app-dark .bg-orange-100,
+.app-dark .bg-purple-50,
+.app-dark .bg-slate-50,
+.app-dark .bg-amber-50,
+.app-dark .bg-emerald-50,
+.app-dark .bg-rose-50,
+.app-dark .bg-green-50 {
+  background-color: rgb(30 41 59) !important;
+}
+
+.app-dark button,
+.app-dark select,
+.app-dark input,
+.app-dark textarea {
+  background-color: rgb(15 23 42);
+  color: rgb(226 232 240);
+}
+
+main,
+article,
+button,
+select,
+input,
+textarea {
+  transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease;
+}
